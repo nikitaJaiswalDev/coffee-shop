@@ -1,0 +1,20 @@
+.card__container {
+    @apply grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 p-4
+}
+
+.card__wrapper {
+    @apply bg-white shadow-lg rounded-lg p-5
+}
+
+.card__image {
+    @apply rounded-2xl h-48 w-full object-cover
+}
+
+.card__options__title {
+    @apply text-sm rounded-full p-3
+}
+
+
+.card__options__container {
+    @apply grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 mt-3 gap-1
+}

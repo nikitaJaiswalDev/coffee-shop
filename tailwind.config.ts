@@ -6,6 +6,7 @@ const config: Config = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  mode: "jit",
   theme: {
     extend: {
       backgroundImage: {
@@ -13,8 +14,19 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        display: ['Arial, sans-serif'],
+      },
+      colors: {
+        "dark-sidebar": "#FFFFFF",
+        "dark-background": "#F8F8F8",
+        "light-white": "rgba(255,255,255,0.18)",
+        "red-color": "rgb(254 202 202)",
+        "orange-color": "rgb(251 146 60)"
+      }
     },
   },
   plugins: [],
+  
 }
 export default config

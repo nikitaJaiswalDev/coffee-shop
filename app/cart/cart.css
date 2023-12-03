@@ -1,0 +1,27 @@
+.table__container {
+    @apply min-w-full table-auto
+}
+
+.table__heading {
+    @apply px-4 py-2
+}
+
+.table__rows {
+    @apply px-4 py-2 border
+}
+
+.cart__heading {
+    @apply font-semibold text-2xl
+}
+
+.cart_product_title {
+    @apply text-black font-semibold text-lg font-display
+}
+
+.cart__image {
+    @apply w-12 h-12 mr-2 rounded-md
+}
+
+.cart_qun_btn {
+    @apply bg-gray-300 px-2 py-1 rounded-md
+}

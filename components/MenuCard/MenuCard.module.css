@@ -1,0 +1,11 @@
+.main__wrapper {
+    @apply grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-6 gap-6 p-4
+}
+
+.menu__container {
+    @apply bg-white shadow-lg rounded-lg flex flex-col items-center
+}
+
+.image__wrapper {
+    @apply flex items-center justify-center h-20 mt-5
+}

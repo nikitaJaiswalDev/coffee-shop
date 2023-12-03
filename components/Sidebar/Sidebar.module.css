@@ -1,0 +1,27 @@
+.sidebar__container {
+    @apply bg-dark-sidebar h-screen p-5 pt-8 duration-300 relative shadow-md
+}
+
+.sidebar__arrow {
+    @apply bg-slate-500 text-dark-sidebar text-3xl rounded-full absolute -right-3 top-9 border border-dark-sidebar cursor-pointer
+}
+
+.logo__icon {
+    @apply bg-red-100 text-3xl rounded cursor-pointer block float-left mr-2 p-1 shadow-md object-contain
+}
+
+.logo__title {
+    @apply text-black origin-left font-medium text-2xl mt-3
+}
+
+.sidebar__icon {
+    @apply text-2xl block float-left
+}
+
+.sidebar__items {
+    @apply text-gray-500 text-sm flex items-center gap-x-4 cursor-pointer p-4 rounded-md mt-2
+}
+
+.sidebar__text {
+    @apply text-base font-medium flex-1 duration-200
+}
