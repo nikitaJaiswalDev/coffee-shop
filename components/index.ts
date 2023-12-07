@@ -4,6 +4,7 @@ import ItemCard from "./Items/ItemCard";
 import Searchbar from "./Searchbar/Searchbar";
 import CustomButton from "./Button/CustomButton";
 import Header from "./Header/Header";
+import Cart from "./Cart/Cart";
 
 export {
     Sidebar,
@@ -11,5 +12,6 @@ export {
     ItemCard,
     Searchbar,
     CustomButton,
-    Header
+    Header,
+    Cart
 }

@@ -139,10 +139,10 @@ const ItemCard = () => {
   return (
   <div className={"card__container"}>
     { cardDetails.map((item, index) => (
-      <div className={"card__wrapper"}>
-          <div key={index} className="flex">
+      <div key={index} className={"card__wrapper"}>
+          <div className="flex">
             <div className="w-2/5 ">
-                <img src={item.image} alt="Image" className={"card__image"} />
+                <img src={item.image} alt="Image" className="card__image" />
             </div>
             <div className="w-3/5 p-5">
                 <div className="flex flex-col gap-4">

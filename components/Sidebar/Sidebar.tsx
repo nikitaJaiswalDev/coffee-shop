@@ -47,8 +47,8 @@ const Sidebar = () => {
 
         <ul className="pt-10">
           { Menus.map((menu, index) => (
-            <Link href={menu.route}>
-              <li key={index} className={`${styles.sidebar__items} ${pathname==menu.route && "bg-orange-color"}`}>
+            <Link key={index} href={menu.route}>
+              <li className={`${styles.sidebar__items} ${pathname==menu.route && "bg-orange-color"}`}>
                 <span className={styles.sidebar__icon}>{menu.icon}</span>
                   <span className={`${styles.sidebar__text} ${!open && 'hidden'}`} >{menu.title}</span>
               </li>
